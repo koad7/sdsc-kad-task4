@@ -1,0 +1,22 @@
+{
+  "name": "sdsc-kad-tasks-4",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3",
+    "maplibre-gl": "^4.7.0",
+    "pbf": "^4.0.1",
+    "pmtiles": "^3.0.7",
+    "protomaps-themes-base": "^3.1.0"
+  }
+}
